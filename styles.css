@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  padding: 50px 240px;
+}
+.banner-title {
+  color: #272727;
+  font-family: "Lato";
+  font-size: 60px;
+  font-weight: 800;
+}
+.banner-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 44px;
+  color: #fff;
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: 700;
+}
+.left{
+    padding-top: 150px;
+}
