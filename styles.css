@@ -5,7 +5,7 @@
 .banner {
   background-color: rgba(229, 84, 115, 0.1);
   display: flex;
-  padding: 50px 240px;
+  padding: 50px 200px 0px;
 }
 .banner-title {
   color: #272727;
@@ -18,16 +18,113 @@
   font-family: "Lato";
   font-size: 18px;
   font-weight: 400;
+  padding: 32px 0px;
 }
 .btn-primary {
   border-radius: 8px;
   background: #e55473;
   padding: 20px 44px;
   color: #fff;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-size: 20px;
   font-weight: 700;
 }
-.left{
-    padding-top: 150px;
+.left {
+  padding-top: 150px;
+  width: 100%;
+}
+.right {
+  position: relative;
+  left: 100px;
+}
+
+.heading {
+  color: #272727;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 40px;
+  font-weight: 800;
+}
+main {
+  margin: 0 240px;
+}
+/* Flower */
+.flower-container {
+  margin-top: 180px;
+}
+.flower-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 400;
+  max-width: 50%;
+  margin: 24px auto 48px;
+}
+.flower-card {
+  display: flex;
+  gap: 24px;
+}
+
+.card-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 33%;
+}
+.card-1 img {
+  width: 75%;
+}
+.card-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+.card-2 img {
+  width: 75%;
+}
+.card-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 33%;
+}
+.card-3 img {
+  width: 75%;
+}
+.flower-name {
+  display: flex;
+  justify-content: space-around;
+  margin: 24px 0px;
+  color: #272727;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+/* grey */
+.grey {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  padding: 90px 180px;
+  gap: 100px;
+  margin-top: 128px;
+}
+.icon {
+  text-align: center;
+
+}
+.icon p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 600;
 }
